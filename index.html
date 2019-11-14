@@ -158,12 +158,22 @@
 								</header>
 									<div id="contact-form">
 										<form method="POST" action="https://formspree.io/hrithik.sharma@iiitb.org">
-											<input type="hidden" name="_subject" value="Contact request from personal website" />
-											<input type="email" name="_replyto" placeholder="Your email" required>
-											<p></p>
-											<textarea name="message" placeholder="Your message" rows="8"  required></textarea>
-											<p></p>
-											<button type="submit">Send</button>
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="name" id="name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="email" id="email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<!-- <ul class="actions"> -->
+														<input type="submit" value="Send" class="primary" />
+													<!-- </ul> -->
+												</div>
+											</div>
 										</form>
 									</div>
 							</section>
@@ -176,7 +186,7 @@
 							<h2></h2>
 							<p></p>
 							<ul class="actions">
-								<li><a href="index.html" class="button">Back</a></li>
+								<!-- <li><a href="#top" class="button">Back to Top</a></li> -->
 							</ul>
 						</section>
 						<section>
